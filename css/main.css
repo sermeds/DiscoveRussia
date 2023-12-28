@@ -1,0 +1,843 @@
+@font-face {
+    font-family: 'Gabriela';
+    src: url("../fonts/Gabriela.ttf");
+}
+
+@font-face {
+    font-family: 'Piazzolla';
+    src: url("../fonts/Piazzolla.ttf");
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay.ttf");
+}
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin-top: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1920px;
+    background-color: #38626B;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.head_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-bottom: 31px;
+}
+
+.head_block .Name {
+    margin-left: 139px;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    color: black;
+}
+
+.head_img {
+    height: 768px;
+    background-image: url("../img/Main/Head.png");
+}
+
+.head_img p {
+    margin-top: 353px;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.about_block {
+    position: relative;
+    top: 49px;
+    margin-left: 54px;
+    width: 1046px;
+    height: 98px;
+    background: rgba(34, 40, 49, 0.9);
+}
+
+.about_block p {
+    padding-top: 20px;
+    margin-top: 0;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.About .text {
+    padding: 20px 0;
+    width: 1734px;
+    height: auto;
+    margin-left: 166px;
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.About .text p {
+    padding-top: 49px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.Tour {
+    margin-top: 162px;
+}
+
+.block1 {
+    width: 1016px;
+    height: 93px;
+    background: rgba(255, 255, 255, 0.55);
+    margin-left: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1 .big {
+    position: relative;
+    top: 48px;
+    left: 315px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.block1 .small {
+    position: relative;
+    top: 38px;
+    left: -25px;
+    z-index: 100;
+    font-family: 'Gabriela', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.block2 {
+    position: relative;
+    bottom: 47px;
+    width: 1018px;
+    height: 92px;
+    background: rgba(255, 255, 255, 0.55);
+    margin-left: 830px;
+}
+
+.block2 p {
+    position: relative;
+    top: 49px;
+    left: 75px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.info_block {
+    position: relative;
+    top: 49px;
+    margin-left: 802px;
+    width: 1046px;
+    height: 98px;
+    background: rgba(34, 40, 49, 0.9);
+}
+
+.info_block p {
+    padding-top: 20px;
+    margin-top: 0;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Info .text {
+    padding: 20px 0;
+    width: 1734px;
+    margin-left: 65px;
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.Info .text p {
+    padding-top: 53px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.slider__container {
+    background: url("../img/Main/map.png");
+}
+
+.slider__item a {
+    display: block;
+    width: 80px;
+    /*height: 80px;*/
+    text-decoration: none;
+}
+
+.tag1 {
+    position: relative;
+    top: 468px;
+    left: 68px;
+}
+
+.tag2 {
+    position: relative;
+    top: 124px;
+    /*top: 244px;*/
+    left: 353px;
+}
+
+.tag3 {
+    position: relative;
+    top: -376px;
+    left: 460px;
+}
+
+.tag4 {
+    position: relative;
+    top: -500px;
+    left: 300px;
+}
+
+.tag5 {
+    position: relative;
+    top: -803px;
+    left: 163px;
+}
+
+.tag6 {
+    position: relative;
+    top: 662px;
+    left: 688px;
+
+}
+
+.tag7 {
+    position: relative;
+    top: 494px;
+    left: 1050px;
+}
+
+.tag8 {
+    position: relative;
+    top: 310px;
+    left: 1345px;
+}
+
+.tag9 {
+    position: relative;
+    top: 250px;
+    left: 1462px;
+}
+
+.tag0 {
+    position: relative;
+    height: 80px;
+    top: -400px;
+    left: 1625px;
+}
+
+.slider__item .numb {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 49px;
+    left: 29px;
+    color: black;
+}
+
+.slider__item .Name {
+    color: black;
+    width: 400px;
+    position: relative;
+    left: -62px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: left;
+}
+
+.slider__item .up {
+    top: 51px;
+}
+
+.slider__item .down {
+    top: -12px;
+}
+
+.tag1 .Name {
+    left: -32px;
+}
+
+.tag6 .Name {
+    left: -23px;
+}
+
+.tag0 .Name {
+    width: 209px;
+}
+
+footer {
+    margin-top: 158px;
+    background: rgba(34, 40, 49, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    margin-top: 20px;
+}
+
+footer .slogan {
+    margin-bottom: 20px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .copyright {
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 1920px) {
+    .container {
+        max-width: 1500px;
+    }
+
+    .About div {
+        max-width: 1300px;
+    }
+
+    .Tour {
+        margin: 162px auto 0 auto;
+        max-width: 1200px;
+    }
+
+    .Tour div {
+        max-width: 800px;
+    }
+
+    .block1 {
+        margin-left: 0;
+        max-width: 800px;
+    }
+
+    .block1 .big {
+        left: 120px;
+    }
+
+    .block2 {
+        max-width: 750px;
+        margin-left: 528px;
+    }
+
+    .container .slider {
+        max-width: 100%;
+        height: 872px;
+    }
+
+    .slider div {
+        max-width: 1300px;
+        margin: 0;
+    }
+
+    .container .slider__container {
+        margin-left: 100px;
+        background: url("../img/Main/map2.png"), 100% 100%, no-repeat;
+        height: 755px;
+    }
+
+    .slider__item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .slider__item .numb {
+        font-size: 33px;
+        top: 38px;
+        left: 21px;
+    }
+
+    .slider__item .Name {
+        font-size: 33px;
+    }
+
+    .Info {
+        max-width: 1200px;
+        margin-left: 200px;
+    }
+
+    .Info div {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .tag1 {
+        top: 330px;
+        left: 50px;
+    }
+
+    .tag2 {
+        top: 60px;
+        left: 261px
+    }
+
+    .tag3 {
+        top: -351px;
+        left: 336px;
+    }
+
+    .tag4 {
+        top: -434px;
+        left: 235px;
+    }
+
+    .tag5 {
+        top: -727px;
+        left: 118px;
+    }
+
+    .tag6 {
+        position: absolute;
+        top: 480px;
+        left: 500px;;
+    }
+
+    .tag7 {
+        position: absolute;
+        top: 495px;
+        left: 761px;
+    }
+
+    .tag8 {
+        position: absolute;
+        top: 489px;
+        left: 976px;
+    }
+
+    .tag9 {
+        position: absolute;
+        top: 597px;
+        left: 1080px;
+    }
+
+    .tag0 {
+        position: absolute;
+        top: 258px;
+        left: 1186px;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .head_img {
+        height: 480px;
+        background-size: contain;
+    }
+
+    .head_img p {
+        margin-top: 209px;
+        font-size: 60px;
+    }
+
+    .About div {
+        max-width: 800px;
+    }
+
+    .About .text p {
+        font-size: 33px;
+    }
+
+    .Tour {
+        margin: 162px 0 0 95px;
+        max-width: 800px;
+    }
+
+    .Tour div {
+        max-width: 600px;
+    }
+
+    .block1 {
+        margin-left: 0;
+        max-width: 600px;
+    }
+
+    .block1 .big {
+        font-size: 60px;
+        left: 120px;
+    }
+
+    .block1 .small {
+        font-size: 25px;
+    }
+
+    .block2 {
+        max-width: 550px;
+        margin-left: 393px;
+    }
+
+    .block2 p {
+        font-size: 60px;
+    }
+
+    .container .slider {
+        max-width: 100%;
+        height: 581px;
+    }
+
+    .slider div {
+        max-width: 1000px;
+        margin: 0;
+    }
+
+    .container .slider__container {
+        margin-left: 100px;
+        background: url("../img/Main/map3.png"), 100% 100%, no-repeat;
+        height: 581px;
+    }
+
+    .slider__item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .slider__item .numb {
+        font-size: 25px;
+        top: 28px;
+        left: 14px;
+    }
+
+    .slider__item .Name {
+        font-size: 25px;
+    }
+
+    .Info {
+        max-width: 800px;
+        margin-left: 100px;
+    }
+
+    .Info .text p {
+        font-size: 33px;
+    }
+
+    .Info div {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .tag1 {
+        top: 261px;
+        left: 40px;
+    }
+
+    .tag2 {
+        top: 44px;
+        left: 202px;
+    }
+
+    .tag3 {
+        top: -292px;
+        left: 266px;
+    }
+
+    .tag4 {
+        top: -354px;
+        left: 180px;
+    }
+
+    .tag5 {
+        top: -608px;
+        left: 95px;
+    }
+
+    .tag6 {
+        position: absolute;
+        top: 381px;
+        left: 387px;
+    }
+
+    .tag7 {
+        position: absolute;
+        top: 393px;
+        left: 593px;
+    }
+
+    .tag8 {
+        position: absolute;
+        top: 381px;
+        left: 755px;
+    }
+
+    .tag9 {
+        position: absolute;
+        top: 469px;
+        left: 841px;
+    }
+
+    .tag0 {
+        position: absolute;
+        top: 200px;
+        left: 926px;
+    }
+
+    .tag0 .Name {
+        width: 132px;
+    }
+
+    footer img {
+        width: 420px;
+        height: 115px;
+    }
+
+    footer .slogan {
+        font-size: 215%;
+    }
+
+    footer .copyright {
+        font-size: 120%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .head_img {
+        height: 320px;
+        background-size: contain;
+    }
+
+    .head_img p {
+        margin-top: 130px;
+        font-size: 40px;
+    }
+
+    .About div {
+        max-width: 500px;
+    }
+
+    .About .text p {
+        font-size: 28px;
+    }
+
+    .about_block p {
+        font-size: 35px;
+    }
+
+    .Tour {
+        margin: 162px 0 0 95px;
+        max-width: 400px;
+    }
+
+    .Tour div {
+        max-width: 400px;
+    }
+
+    .block1 {
+        margin-left: 0;
+        max-width: 400px;
+    }
+
+    .block1 .big {
+        font-size: 40px;
+        left: 55px;
+    }
+
+    .block1 .small {
+        font-size: 20px;
+    }
+
+    .block2 {
+        max-width: 350px;
+        margin-left: 233px;
+    }
+
+    .block2 p {
+        font-size: 40px;
+        left: 30px;
+    }
+
+    .container .slider {
+        max-width: 100%;
+        height: 349px;
+    }
+
+    .slider div {
+        max-width: 600px;
+        margin: 0;
+    }
+
+    .container .slider__container {
+        margin-left: 100px;
+        background: url("../img/Main/map4.png"), 100% 100%, no-repeat;
+        height: 349px;
+    }
+
+    .slider__item a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider__item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider__item .numb {
+        font-size: 20px;
+        top: 21px;
+        left: 10px;
+    }
+
+    .slider__item .Name {
+        font-size: 20px;
+    }
+
+    .Info {
+        max-width: 800px;
+        margin-left: 100px;
+    }
+
+    .info_block p {
+        font-size: 35px;
+    }
+
+    .Info .text p {
+        font-size: 28px;
+    }
+
+    .Info div {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .tag1 {
+        top: 145px;
+        left: 21px;
+    }
+
+    .tag1 .Name {
+        left: -13px;
+    }
+
+    .tag2 {
+        top: 68px;
+        left: 120px;
+    }
+
+    .tag3 {
+        top: -105px;
+        left: 155px;
+    }
+
+    .tag4 {
+        top: -65px;
+        left: 110px;
+    }
+
+    .tag5 {
+        top: -189px;
+        left: 61px;
+    }
+
+    .tag6 {
+        position: absolute;
+        top: 211px;
+        left: 228px;
+    }
+
+    .tag7 {
+        position: absolute;
+        top: 223px;
+        left: 346px;
+    }
+
+    .tag8 {
+        position: absolute;
+        top: 197px;
+        left: 444px;
+    }
+
+    .tag9 {
+        position: absolute;
+        top: 263px;
+        left: 489px;
+    }
+
+    .tag0 {
+        position: absolute;
+        top: 101px;
+        left: 547px;
+    }
+
+    .tag0 .Name {
+        width: 132px;
+    }
+
+    footer img {
+        width: 420px;
+        height: 115px;
+    }
+
+    footer .slogan {
+        font-size: 215%;
+    }
+
+    footer .copyright {
+        font-size: 120%;
+    }
+
+}

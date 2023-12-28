@@ -1,0 +1,888 @@
+@font-face {
+    font-family: 'Gabriela';
+    src: url("../fonts/Gabriela.ttf");
+}
+@font-face {
+    font-family: 'Piazzolla';
+    src: url("../fonts/Piazzolla.ttf");
+}
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url("../fonts/PlayfairDisplay.ttf");
+}
+*{
+    box-sizing: content-box;
+}
+body{
+    margin-top: 0;
+    background: gray;
+}
+.container{
+    margin: auto;
+    width: 1920px;
+    background: white;
+}
+p{
+    margin: 0 auto;
+}
+header a{
+    text-decoration: none;
+}
+.Name_logo{
+    margin-left: 49px;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: left;
+    color:black;
+}
+.head_img{
+    height: 721px;
+}
+.Dombay .head_img{
+    background-image: url("../img/Dombay/head.png");
+}
+.Yoshkar-ola .head_img{
+    background-image: url("../img/Yoshkar-ola/head.png");
+}
+.Solovetsky_islands .head_img{
+    background-image: url("../img/Solovetsky islands/head.png");
+}
+.Sestroretsk .head_img{
+    background-image: url("../img/Sestroretsk/head.png");
+}
+.Kaliningrad .head_img{
+    background-image: url("../img/Kaliningrad/head.png");
+}
+.Altai .head_img{
+    background-image: url("../img/Altai/head.png");
+}
+.Baikal .head_img{
+    background-image: url("../img/Baikal/head.png");
+}
+.Blagoveshchensk .head_img{
+    background-image: url("../img/Blagoveshchensk/head.png");
+}
+.Vladivostok .head_img{
+    background-image: url("../img/Vladivostok/head.png");
+}
+.Kamchatka .head_img{
+    background-image: url("../img/Kamchatka/head.png");
+}
+.head_img .text{
+    margin-left: 208px;
+    padding-top: 345px;
+}
+.head_img .Name{
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+.Dombay .head_img .Name, .Dombay .head_img .ad{
+    text-align: left;
+}
+.Yoshkar-ola .head_img .Name, .Yoshkar-ola .head_img .ad{
+    margin-right: 66px;
+    text-align: right;
+}
+.Solovetsky_islands .head_img .Name{
+    margin-left: 0;
+    text-align: left;
+    width: 872px;
+}
+.Solovetsky_islands .head_img .text{
+    padding-top: 40px;
+    padding-bottom: 324px;
+}
+.Sestroretsk .head_img .Name, .Sestroretsk .head_img .ad{
+    margin-left: 100px;
+    text-align: left;
+}
+.Sestroretsk .head_img .text{
+    margin-left: 31px;
+    padding-top: 415px;
+}
+.Kaliningrad .head_img .Name, .Kaliningrad .head_img .ad{
+    margin-left: 100px;
+    text-align: left;
+}
+.Kaliningrad .head_img .text{
+    margin-left: 31px;
+    padding-top: 60px;
+}
+.Altai .head_img .Name, .Altai .head_img .ad{
+    margin-left: 144px;
+    text-align: left;
+}
+.Altai .head_img .text{
+    padding-top: 280px;
+    padding-bottom: 63px;
+}
+.Baikal .head_img .Name, .Baikal .head_img .ad{
+    text-align: right;
+    margin-right: 66px;
+}
+.Baikal .head_img .text{
+    padding-top: 179px;
+    padding-bottom: 165px;
+}
+.Blagoveshchensk .head_img .Name, .Blagoveshchensk .head_img .ad{
+    text-align: right;
+    margin-right: 245px;
+}
+.Blagoveshchensk .head_img .text{
+    padding-top: 179px;
+    padding-bottom: 165px;
+}
+.Vladivostok .head_img .Name, .Vladivostok .head_img .ad{
+    text-align: left;
+}
+.Kamchatka .head_img .Name, .Kamchatka .head_img .ad{
+    text-align: right;
+    margin-right: 35px;
+}
+.Kamchatka .head_img .text{
+    padding-top: 288px;
+    padding-bottom: 56px;
+}
+.head_img .ad{
+    margin-top: 20px;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+nav{
+    width: 1236px;
+    margin-left: 618px;
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    width: 218px;
+    height: 76px;
+}
+.Sestroretsk nav{
+    margin-top: 73px;
+}
+.Kaliningrad nav{
+    margin-top: 429px;
+}
+.first nav a{
+    background: #E98930;
+}
+.second nav a{
+    background: #2A9F8D;
+}
+nav a:hover{
+    text-decoration: underline white;
+}
+.first nav a:hover{
+    background: #cb6d16;
+}
+.second nav a:hover{
+    background: #227f71;
+}
+nav a p{
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Way_Name{
+    margin-top: 166px;
+}
+.Name{
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+}
+.ad{
+    margin-top: 33px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+}
+.Way{
+    margin: 85px 31px 0 113px;
+    display: flex;
+    justify-content: space-between;
+}
+.Solovetsky_islands .Way{
+    justify-content: space-around;
+}
+.Sestroretsk .Way{
+    justify-content: space-around;
+}
+.Kaliningrad .Way{
+    justify-content: center;
+}
+.Altai .Way{
+    justify-content: space-around;
+}
+.Kamchatka .Way{
+    justify-content: center;
+}
+.block1{
+    width: 499px;
+    height: 450px;
+}
+.first .block1{
+    background: rgba(233, 137, 48, 0.75);
+}
+.second .block1{
+    background: #2A9F8D;
+}
+.block2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: -75px;
+    top: 39px;
+    width: 497px;
+    height: 451px;
+    background: rgba(196, 196, 196, 0.55);
+}
+.block2 img{
+    margin: 10px auto;
+}
+.block2 p{
+    position: relative;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.Tourism_Name{
+    margin-top: 266px;
+}
+.arrow{
+    height: 0;
+}
+.arrow1{
+    position: relative;
+    top: -460px;
+    left: 1205px;
+}
+.arrow2{
+    position: relative;
+    top: -360px;
+    left: -420px;
+}
+.Tourism{
+    margin-top: 115px;
+}
+.Tourism .block1{
+    margin-left: 509px;
+    width: 1392px;
+    height: 292px;
+}
+.Tourism .block2{
+    top:52px;
+    right: 59px;
+    width: 1392px;
+    height: 290px;
+}
+.Tourism .block2 p{
+    padding-top: 65px;
+}
+.Attractions{
+    margin-top: 192px;
+    width: 1920px;
+    /*height: 1600px;*/
+    background: rgba(196, 196, 196, 0.55);
+}
+.attr{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.attr div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.attr .Name{
+    margin: 20px auto;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.attr .Info{
+    margin: 10px 40px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.Hotels_Name{
+    margin-top: 158px;
+}
+.Hotels, .Food{
+    margin-top: 69px;
+    display: flex;
+    align-items: stretch;
+}
+.Hotels div, .Food div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hotels a, .Food a{
+    text-decoration: none;
+}
+.Hotels p, .Food p{
+    margin: 10px auto;
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+}
+.first .slider{
+    margin-top: 430px;
+}
+.second .slider{
+    margin-top: 440px;
+}
+.container .slider__item img{
+    margin-left: 85px;
+    width: 1650px;
+    height: 1100px;
+}
+.first .info{
+    background: rgba(233, 137, 48, 0.65);
+}
+.second .info{
+    background: #2A9F8D;
+}
+.info p{
+    padding-top: 20px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.Food_Name{
+    margin-top: 132px;
+}
+.Food .info{
+    height: 398px;
+}
+.arrow5{
+    position: relative;
+    left:1000px;
+}
+.End{
+    margin-top: 400px;
+}
+.End .block1{
+    margin-left: 135px;
+    width: 1561px;
+    height: 354px;
+}
+.End .block2{
+    width: 1561px;
+    height: 352px;
+    top:64px;
+    right: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.End .block2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+footer{
+    margin-top: 158px;
+    background: rgba(34, 40, 49, 0.71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    margin-top: 20px;
+}
+footer .slogan{
+    margin-bottom: 20px;
+    font-family: 'Piazzolla', serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer .copyright{
+    font-family: 'Gabriela', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media all and (max-width:1919px){
+    .container{
+        max-width: 1500px;
+    }
+    nav{
+        margin: 145px auto 0 auto;
+    }
+    .Way{
+        width: auto;
+    }
+    .block1{
+        max-width: 400px;
+    }
+    .block2{
+        max-width: 400px;
+        height: auto;
+    }
+    .block2 p{
+        font-size: 120%;
+    }
+    .Tourism .block1{
+        margin: auto;
+        max-width: 70%;
+    }
+    .Tourism .block2{
+        margin: auto;
+        max-width: 1225px;
+    }
+    .arrow1{
+        width: 30%;
+        left: 960px;
+    }
+    .arrow2{
+        width: 16%;
+        top: -426px;
+    }
+    .Attractions{
+        max-width: 100%;
+    }
+    .attr .Name {
+        font-size: 215%;
+    }
+    .attr .Info{
+        font-size: 120%;
+    }
+    .attr img{
+        width: 50%;
+    }
+    .Hotels{
+        max-width: 1600px;
+    }
+    .Hotels, .Food{
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+    .Hotels div, .Food div{
+        max-width: 1200px;
+        align-items: center;
+        align-content: center;
+    }
+    .Hotels p, .Food p{
+        font-size:215%;
+    }
+    .Hotels .info, .Food .info{
+        max-width: 600px;
+        height: auto;
+    }
+    .container .slider{
+        max-width: 100%;
+        margin-top: 150px;
+        /*height: 1032px;*/
+    }
+    .container .slider__item{
+        width: 1300px;
+    }
+    .container .slider div{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container .slider img{
+        width: 1240px;
+        height: 827px;
+        margin-top: 100px;
+        margin-left: 135px;
+    }
+    .info p{
+        font-size: 120%;
+    }
+    .End .block1{
+        margin: auto;
+        max-width: 67%;
+    }
+    .End .block2{
+        margin: auto;
+        max-width: 67%;
+    }
+    .arrow5{
+        width: 50%;
+        left:571px;
+    }
+    footer img{
+        width: 420px;
+        height: 115px;
+    }
+    footer .slogan{
+        font-size: 215%;
+    }
+    footer .copyright{
+        font-size: 120%;
+    }
+}
+@media all and (max-width:1500px){
+    .container{
+        max-width: 1200px;
+    }
+    nav{
+        max-width: 100%;
+        margin: 144px auto 0 auto;
+        justify-content: space-around;
+    }
+    .Way{
+        width: auto;
+    }
+    .block1{
+        max-width: 25%;
+    }
+    .block2{
+        max-width: 100%;
+        height: auto;
+    }
+    .block2 p{
+        font-size: 120%;
+    }
+    .Tourism .block1{
+        margin: auto;
+        max-width: 70%;
+    }
+    .Tourism .block2{
+        margin: auto;
+        max-width: 100%;
+    }
+    .arrow1{
+        width: 30%;
+        left: 740px;
+        top: -330px;
+    }
+    .arrow2{
+        width: 16%;
+        top: -300px;
+        left: -250px;
+    }
+    .Attractions{
+        max-width: 100%;
+    }
+    .attr .Name {
+        font-size: 215%;
+    }
+    .attr .Info{
+        font-size: 120%;
+    }
+    .attr img{
+        width: 50%;
+    }
+    .arrow3{
+        width: 1000px;
+    }
+    .Hotels{
+        max-width: 1100px;
+    }
+    .Hotels, .Food{
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+    .Hotels div, .Food div{
+        max-width: 500px;
+        align-items: center;
+        align-content: center;
+    }
+    .Hotels p, .Food p{
+        font-size:215%;
+    }
+    .Hotels .info, .Food .info{
+        max-width: 600px;
+        height: auto;
+    }
+    .container .slider{
+        max-width: 100%;
+        margin-top: 150px;
+        height: 840px;
+    }
+    .container .slider div{
+        max-width: 100%;
+        height: 840px;
+    }
+    .container .slider img{
+        width: 940px;
+        height: 587px;
+        margin-top: 100px;
+    }
+    .info p{
+        font-size: 120%;
+    }
+    .End .block1{
+        margin: auto;
+        max-width: 67%;
+    }
+    .End .block2{
+        margin: auto;
+        max-width: 100%;
+    }
+    .arrow5{
+        width: 50%;
+        left:571px;
+    }
+    footer img{
+        width: 420px;
+        height: 115px;
+    }
+    footer .slogan{
+        font-size: 215%;
+    }
+    footer .copyright{
+        font-size: 120%;
+    }
+}
+@media all and (max-width:1200px){
+    .container{
+        max-width: 900px;
+    }
+    .Blagoveshchensk .head_img .Name{
+        font-size: 420%;
+    }
+    nav{
+        max-width: 100%;
+        margin: 76px auto 0 auto;
+        justify-content: space-around;
+    }
+    .Way{
+        width: auto;
+    }
+    .block1{
+        max-width: 30%;
+    }
+    .arrow1{
+        width: 40%;
+        left: 482px;
+        top: -290px;
+    }
+    .arrow2{
+        width: 28%;
+        top: -422px;
+        left: -251px;
+    }
+    .arrow3{
+        width: 800px;
+    }
+    .arrow4{
+        width: 600px;
+        height: 700px;
+    }
+    .Hotels, .Food{
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 50px auto;
+    }
+    .Hotels div, .Food div{
+        max-width: 400px;
+        align-items: center;
+        align-content: center;
+    }
+    .Hotels .info, .Food .info{
+        max-width: 300px;
+        height: auto;
+    }
+    .Hotels img, .Food img{
+        max-width: 400px;
+    }
+    .container .slider{
+        max-width: 100%;
+        margin-top: 150px;
+        height: 660px;
+    }
+    .container .slider__control::before{
+        width: 65px;
+        height: 140px;
+    }
+    .container .slider div{
+        max-width: 100%;
+        height: 660px;
+    }
+    .container .slider img{
+        width: 680px;
+        margin-left: 110px;
+        height: 454px;
+        margin-top: 100px;
+    }
+    .info p{
+        font-size: 120%;
+    }
+    .arrow5{
+        width: 50%;
+        left:400px;
+    }
+}
+@media all and (max-width:900px){
+    .container{
+        max-width: 600px;
+    }
+    .head_img .text{
+        margin: 0 60px;
+        padding-top: 209px;
+    }
+    .head_img .Name{
+        font-size: 300%;
+    }
+    .Blagoveshchensk .head_img .Name{
+        font-size: 350%;
+    }
+    .head_img .ad{
+        font-size: 250%;
+    }
+    nav{
+        max-width: 100%;
+        margin: 144px auto 0 auto;
+        justify-content: space-around;
+    }
+    nav a p{
+        font-size: 120%;
+    }
+    .Way{
+        width: auto;
+        flex-flow: column wrap;
+    }
+    .block1{
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .block2{
+        max-width: 100%;
+        height: auto;
+    }
+    .block2 p{
+        font-size: 90%;
+    }
+    .Tourism .block1{
+        margin: auto;
+        max-width: 70%;
+    }
+    .Tourism .block2{
+        margin: auto;
+        max-width: 100%;
+    }
+    .arrow1{
+        width: 50%;
+        left: 298px;
+        top: -500px;
+    }
+    .arrow2{
+        width: 32%;
+        top: -473px;
+        left: -264px;
+    }
+    .Attractions{
+        max-width: 100%;
+    }
+    .attr .Name {
+        font-size: 150%;
+    }
+    .attr .Info{
+        font-size: 90%;
+    }
+    .attr img{
+        width: 50%;
+    }
+    .arrow3{
+        width: 600px;
+    }
+    .Hotels, .Food{
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 50px auto;
+    }
+    .Hotels div, .Food div{
+        max-width: 300px;
+        align-items: center;
+        align-content: center;
+    }
+    .Hotels p, .Food p{
+        font-size:150%;
+    }
+    .Hotels .info, .Food .info{
+        max-width: 400px;
+        height: auto;
+    }
+    .Hotels img, .Food img{
+        max-width: 300px;
+    }
+    .container .slider{
+        max-width: 100%;
+        margin-top: 150px;
+        height: 465px;
+    }
+    .container .slider__control::before{
+        width: 65px;
+        height: 140px;
+    }
+    .container .slider div{
+        max-width: 100%;
+        height: 465px;
+    }
+    .container .slider img{
+        width: 383px;
+        margin-left: 110px;
+        height: 256px;
+        margin-top: 100px;
+    }
+    .info p{
+        font-size: 90%;
+    }
+    .End .block1{
+        margin: auto;
+        max-width: 67%;
+    }
+    .End .block2{
+        margin: auto;
+        max-width: 100%;
+    }
+    .arrow5{
+        width: 90%;
+        left: 84px;
+    }
+    footer img{
+        width: 210px;
+        height: 67px;
+    }
+    footer .slogan{
+        font-size: 150%;
+    }
+    footer .copyright{
+        font-size: 70%;
+    }
+}

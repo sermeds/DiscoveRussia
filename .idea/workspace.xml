@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8428ea4d-d21b-4d4a-adb7-2abca116b4e9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="26vkvLOU8ryZM480FykSnzk5s3p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8428ea4d-d21b-4d4a-adb7-2abca116b4e9" name="Changes" comment="" />
+      <created>1648311679663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648311679663</updated>
+      <workItem from="1648311681318" duration="29405000" />
+      <workItem from="1648382303622" duration="26935000" />
+      <workItem from="1648488996979" duration="296000" />
+      <workItem from="1648489318196" duration="16829000" />
+      <workItem from="1648533101970" duration="4471000" />
+      <workItem from="1648561331942" duration="27735000" />
+      <workItem from="1648619544898" duration="3214000" />
+      <workItem from="1648798472792" duration="3811000" />
+      <workItem from="1648815045528" duration="4644000" />
+      <workItem from="1648907143965" duration="12394000" />
+      <workItem from="1648969286458" duration="594000" />
+      <workItem from="1649796041856" duration="343000" />
+      <workItem from="1653086022415" duration="595000" />
+      <workItem from="1653176192706" duration="22000" />
+      <workItem from="1659887188117" duration="166000" />
+      <workItem from="1660068469713" duration="17000" />
+      <workItem from="1665598139760" duration="111000" />
+      <workItem from="1703791600391" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
